@@ -87,5 +87,6 @@ class RouletteMartingale
     end
   end
   
-  roulette_simulation = RouletteMartingale.new
+  roulette_simulation = RoulettesMartingale.new
+  roulette_simulation.initialize
   roulette_simulation.simulate
